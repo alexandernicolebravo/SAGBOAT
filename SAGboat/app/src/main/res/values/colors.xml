@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and Accent Colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- UI Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color> <!-- Black for text -->
+    <color name="gray">#D3D3D3</color> <!-- Gray for table headers -->
+    <color name="gray_light">#F5F5F5</color> <!-- Light gray for background of rows -->
+</resources>

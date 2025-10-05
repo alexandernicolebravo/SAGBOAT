@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001e24"
+    tools:context=".SettingsActivity">
+
+    <!-- Wi-Fi Status Text -->
+    <TextView
+        android:id="@+id/wifiStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_status_checking"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <!-- SSID Text -->
+    <TextView
+        android:id="@+id/ssidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ssid_label"
+        android:layout_below="@id/wifiStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" />
+
+    <!-- Password Text -->
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password_label"
+        android:layout_below="@id/ssidText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" />
+
+    <!-- Check Wi-Fi Status Button -->
+    <Button
+        android:id="@+id/checkWifiStatusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_wifi_status"
+        android:layout_below="@id/passwordText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0097b2"
+        android:textColor="#FFFFFF" />
+
+    <!-- Open Wi-Fi Settings Button -->
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_wifi_settings"
+        android:layout_below="@id/checkWifiStatusButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7ed957"
+        android:textColor="#FFFFFF"
+        android:onClick="openDeviceWifiSettings" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<!-- res/values-night/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode -->
+    <style name="Base.Theme.SAGboat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customizations for dark theme here -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">#001e24</item> <!-- Dark background -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Light text color -->
+    </style>
+
+    <style name="Theme.SAGboat" parent="Base.Theme.SAGboat" />
+</resources>
